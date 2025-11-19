@@ -1,17 +1,15 @@
 {
-  "name": "driveseed-puppeteer-stealth",
+  "name": "driveseed-playwright-firefox",
   "version": "1.0.0",
-  "description": "DriveSeed resolver using puppeteer-extra + stealth",
+  "description": "DriveSeed resolver using Playwright Firefox",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "puppeteer": "^20.10.0",
-    "puppeteer-extra": "^3.2.3",
-    "puppeteer-extra-plugin-stealth": "^2.11.1",
-    "body-parser": "^1.20.2",
-    "cheerio": "^1.0.0-rc.12"
+    "cheerio": "^1.0.0-rc.12",
+    "playwright": "^1.39.0",
+    "body-parser": "^1.20.2"
   }
 }

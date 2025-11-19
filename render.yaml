@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: driveseed-puppeteer-stealth
+    name: driveseed-playwright-firefox
     env: docker
     region: singapore
     plan: free
