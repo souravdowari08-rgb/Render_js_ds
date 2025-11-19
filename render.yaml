@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: driveseed-puppeteer-stealth
+    env: docker
+    region: singapore
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    healthCheckPath: /
